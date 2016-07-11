@@ -12,6 +12,7 @@
 		DD3BB51B1D30691A007F91DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3BB5191D30691A007F91DD /* Main.storyboard */; };
 		DD3BB51D1D30691A007F91DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3BB51C1D30691A007F91DD /* Assets.xcassets */; };
 		DD3BB5201D30691A007F91DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3BB51E1D30691A007F91DD /* LaunchScreen.storyboard */; };
+		DDDF19AD1D343E17001A45A5 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDF19AC1D343E17001A45A5 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DD3BB51C1D30691A007F91DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD3BB51F1D30691A007F91DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD3BB5211D30691A007F91DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDF19AC1D343E17001A45A5 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				DD3BB5151D30691A007F91DD /* AppDelegate.swift */,
 				DD3BB5171D30691A007F91DD /* ViewController.swift */,
+				DDDF19AC1D343E17001A45A5 /* RoundButton.swift */,
 				DD3BB5191D30691A007F91DD /* Main.storyboard */,
 				DD3BB51C1D30691A007F91DD /* Assets.xcassets */,
 				DD3BB51E1D30691A007F91DD /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDF19AD1D343E17001A45A5 /* RoundButton.swift in Sources */,
 				DD3BB5181D30691A007F91DD /* ViewController.swift in Sources */,
 				DD3BB5161D30691A007F91DD /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +290,7 @@
 				DD3BB5261D30691A007F91DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

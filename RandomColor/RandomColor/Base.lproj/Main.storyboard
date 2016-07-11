@@ -17,24 +17,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPK-Xh-yEl">
-                                <rect key="frame" x="125" y="280" width="350" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPK-Xh-yEl" customClass="RoundButton" customModule="RandomColor" customModuleProvider="target">
+                                <rect key="frame" x="200" y="200" width="200" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="QjP-jS-nXP"/>
-                                    <constraint firstAttribute="width" constant="350" id="iY3-Aq-ZsO"/>
+                                    <constraint firstAttribute="width" constant="200" id="NzO-Fz-pgO"/>
+                                    <constraint firstAttribute="height" constant="200" id="cnT-gm-Xi6"/>
                                 </constraints>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Get Random Color"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="getRandomColor:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ukC-Tw-Aeg"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.34919688372143848" green="0.77160232843137255" blue="0.39503530964955086" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="qPK-Xh-yEl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fvn-Wf-drK"/>
-                            <constraint firstItem="qPK-Xh-yEl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fRz-PC-KoX"/>
+                            <constraint firstItem="qPK-Xh-yEl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BUo-TJ-1t5"/>
+                            <constraint firstItem="qPK-Xh-yEl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HOo-4p-5zD"/>
                         </constraints>
                     </view>
                     <connections>
